@@ -930,7 +930,7 @@ ul, ol {
 
 .section-title span {
   text-transform: uppercase;
-  background: #2042e3;
+  background: #129B4B;
   display: inline-block;
   margin-bottom: 10px;
   font-size: 12px;
@@ -1015,7 +1015,7 @@ ul, ol {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #2042e3;
+  background: #15B756;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1131,7 +1131,7 @@ ul, ol {
   font-size: 14px;
   font-weight: 500;
   padding: 15px 30px;
-  background-color: #2042e3;
+  background-color: #15B756;
   color: #fff;
   border: none;
   -webkit-transition: .5s;
@@ -1219,7 +1219,7 @@ ul, ol {
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
-  color: #2042e3
+  color: #03923F
 }
 
 .sticky .navbar .navbar-toggler .toggler-icon {
@@ -1232,6 +1232,16 @@ ul, ol {
   position: relative;
   -webkit-transition: all .3s ease-out 0s;
   transition: all .3s ease-out 0s
+}
+
+.navbar a{
+    color: #03923F;
+
+}
+
+
+.navbar-nav .nav-item a:hover, .navbar-nav .nav-item a.active {
+    color: #03923F;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1267,7 +1277,7 @@ ul, ol {
 }
 
 .navbar-toggler:hover {
-  background-color: #081828 !important
+  background-color: #129B4B !important
 }
 
 .navbar-toggler:focus {
@@ -1368,7 +1378,7 @@ ul, ol {
   position: absolute;
   bottom: 0;
   height: 3px;
-  background: #2042e3;
+  background: #03923F;
   z-index: -1;
   opacity: 0;
   border-radius: 10px;
@@ -1388,7 +1398,7 @@ ul, ol {
 }
 
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a.active {
-  color: #2042e3
+  color: #03923F
 }
 
 .navbar-nav .nav-item:hover a:before, .navbar-nav .nav-item a.active::before {
@@ -1397,7 +1407,7 @@ ul, ol {
 }
 
 .header .navbar-nav li .sub-menu li a.active {
-  background-color: #2042e3 !important;
+  background-color: #03923F !important;
   color: #fff !important
 }
 
@@ -1557,7 +1567,7 @@ ul, ol {
   overflow: hidden;
   position: relative;
   z-index: 2;
-  background: #2042e3;
+  background: #129B4B;
   border: none;
   font-size: 14px;
   font-weight: 500;
@@ -1649,8 +1659,8 @@ ul, ol {
 }
 
 .header .navbar-nav li .sub-menu li:hover a {
-  color: #fff;
-  background: #2042e3
+  color: #15B756;
+  background: #F7FCF9
 }
 
 .header .navbar-nav li .sub-menu li .sub-menu li:hover .sub-menu {
@@ -1746,7 +1756,7 @@ ul, ol {
 
 .hero-area {
   position: relative;
-  background: #f6f9fc;
+  background: #F8FFFB;
   overflow: hidden
 }
 
@@ -2333,7 +2343,7 @@ ul, ol {
   padding: 40px 30px;
   padding-bottom: 40px;
   border-radius: 5px;
-  background-color: #2042e3;
+  background-color: #129B4B;
   -webkit-box-shadow: 0 1rem 3rem rgba(35, 38, 45, .15) !important;
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, .15) !important;
   display: inline-block;
@@ -2398,8 +2408,8 @@ ul, ol {
   line-height: 55px;
   text-align: center;
   display: inline-block;
-  background: #2042e31c;
-  color: #2042e3;
+  background: #EAFBF1;
+  color: #129B4B;
   border-radius: 4px;
   position: absolute;
   left: 0;
@@ -2758,15 +2768,15 @@ ul, ol {
   display: inline-block;
   font-size: 12px;
   position: relative;
-  background: #2042e314;
-  color: #2042e3;
+  background: #F8FFFB;
+  color: #03923F;
   padding: 5px 10px;
   border-radius: 3px;
   text-transform: capitalize
 }
 
 .latest-news-area .single-news .content-body .meta-details ul li a:hover {
-  background-color: #2042e3;
+  background-color: #03923F;
   color: #fff
 }
 
@@ -2796,7 +2806,7 @@ ul, ol {
 }
 
 .latest-news-area .single-news .content-body .title a:hover {
-  color: #2042e3
+  color: #03923F
 }
 
 .latest-news-area .single-news .content-body p {
@@ -2852,7 +2862,7 @@ ul, ol {
   display: inline-block;
   padding: 6px 15px 6px 7px;
   border-radius: 30px;
-  background-color: #2042e3;
+  background-color: #03923F;
   position: absolute;
   right: 20px;
   bottom: 20px
@@ -2895,7 +2905,7 @@ ul, ol {
 }
 
 .post-details .post-title a:hover {
-  color: #2042e3
+  color: #03923F
 }
 
 ul.custom-flex {
@@ -2923,7 +2933,7 @@ ul.custom-flex {
 }
 
 .post-details .post-meta li a:hover {
-  color: #2042e3
+  color: #03923F
 }
 
 .post-details p {
@@ -2951,7 +2961,7 @@ blockquote {
   margin: 40px 0;
   text-align: left;
   padding: 40px;
-  background-color: #2042e3;
+  background-color: #03923F;
   border-radius: 5px;
   overflow: hidden
 }
@@ -3007,7 +3017,7 @@ blockquote .shape {
   line-height: 25px;
   font-size: 10px;
   color: #fff;
-  background-color: #2042e3;
+  background-color: #03923F;
   position: absolute;
   left: 0;
   top: -1px;
@@ -3050,7 +3060,7 @@ blockquote .shape {
 }
 
 .post-details .post-tags-media .post-social-media ul>li>a:hover {
-  background-color: #2042e3;
+  background-color: #03923F;
   color: #fff;
   border-color: transparent
 }
@@ -3083,7 +3093,7 @@ blockquote .shape {
 .post-details .post-meta li a i {
   font-weight: 400;
   margin-right: 5px;
-  color: #2042e3
+  color: #03923F
 }
 
 .post-details>p {
@@ -3113,7 +3123,7 @@ blockquote .shape {
 
 .post-details .post-tags-media .post-tags .tags a:hover {
   color: #fff;
-  background-color: #2042e3
+  background-color: #03923F
 }
 
 .post-details .post-tags-media .post-social-media {
@@ -3231,7 +3241,7 @@ blockquote .shape {
 }
 
 .post-comments .comments-list li .comment-desc .desc-top h6 .saved {
-  color: #2042e3;
+  color: #03923F;
   font-size: 14px;
   margin-left: 10px
 }
@@ -3254,11 +3264,11 @@ blockquote .shape {
   z-index: 2;
   border-radius: 3px;
   border: 1px solid #eee;
-  color: #2042e3
+  color: #03923F
 }
 
 .post-comments .comments-list li .comment-desc .desc-top .reply-link:hover {
-  background-color: #2042e3;
+  background-color: #03923F;
   color: #fff;
   border-color: transparent
 }
@@ -3349,6 +3359,18 @@ blockquote .shape {
   color: #333;
   font-weight: 500;
   padding: 25px
+}
+
+ .hero-area .button .btn{
+   background-color: #03923F;
+ }
+
+ .hero-area.style2 .tns-controls button {
+   background-color: #03923F;
+ }
+
+ .section-title h2:before {
+    background: #03923F;
 }
 
 .sidebar .widget {
@@ -3859,7 +3881,7 @@ blockquote .shape {
 }
 
 .find-job {
-  background-color: #f6f9fc
+  background-color: #f4f7fa;
 }
 
 .find-job .section-title {
@@ -3933,8 +3955,9 @@ blockquote .shape {
   margin-bottom: 5px;
   margin-right: 3px;
   position: relative;
-  background: #2042e314;
-  color: #2042e3;
+  background: #F7FCF9;
+  color: #139949;
+  font-weight: 500;
   padding: 5px 10px;
   border-radius: 3px
 }
@@ -3979,13 +4002,13 @@ blockquote .shape {
 
 .find-job .single-job .job-button ul li a:hover {
   color: #fff;
-  background-color: #2042e3;
+  background-color: #129B4B;
   border-color: transparent
 }
 
 .find-job .single-job .job-button ul li span {
   padding: 5px 20px;
-  background-color: #2042e3;
+  background-color: #129B4B;
   color: #fff;
   border-radius: 4px;
   font-size: 13px;
@@ -4042,7 +4065,7 @@ blockquote .shape {
   padding: 3px 35px;
   font-size: 12px;
   color: #fff;
-  background-color: #2042e3;
+  background-color: #129B4B;
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -4115,7 +4138,7 @@ blockquote .shape {
 }
 
 .featured-job .single-job .content h4 a:hover {
-  color: #2042e3
+  color: #139949
 }
 
 .featured-job .single-job .content ul li {
@@ -4124,10 +4147,11 @@ blockquote .shape {
   margin-bottom: 5px;
   margin-right: 3px;
   position: relative;
-  background: #2042e314;
-  color: #2042e3;
+  background: #F7FCF9;
+  color: #139949;
   padding: 5px 10px;
   border-radius: 3px
+
 }
 
 .featured-job .single-job .content ul li:last-child {
@@ -4141,10 +4165,13 @@ blockquote .shape {
   margin-right: 3px
 }
 
+
+
 .featured-job .single-job .content p {
   font-size: 14px;
   display: block;
   margin-top: 10px
+
 }
 
 .featured-job .single-job .content .button {
@@ -4173,7 +4200,7 @@ blockquote .shape {
 }
 
 .featured-job .single-job .content .button .btn.save:hover {
-  background-color: #2042e3;
+  background-color: #15B756;
   color: #fff;
   border-color: transparent
 }
@@ -7760,9 +7787,13 @@ blockquote .shape {
 
 .footer .f-about .contact-address li span {
   font-weight: 500;
-  color: #081828;
+  color: #15B756;
   display: inline-block;
   margin-right: 4px
+}
+
+.footer {
+  color: #15B756;
 }
 
 .footer .footer-social {
@@ -7780,13 +7811,13 @@ blockquote .shape {
 
 .footer .footer-social ul li a {
   font-size: 14px;
-  color: #081828;
+  color: #15B756;
   height: 40px;
   width: 40px;
   text-align: center;
   display: block;
   line-height: 40px;
-  background: #e8ecf1;
+  background: #F7FCF9;
   border: none;
   border-radius: 4px;
   position: relative;
@@ -7795,7 +7826,7 @@ blockquote .shape {
 
 .footer .footer-social ul li a:hover {
   color: #fff;
-  background-color: #2042e3;
+  background-color: #15B756;
   -webkit-box-shadow: 0 1rem 3rem rgba(35, 38, 45, .15) !important;
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, .15) !important
 }
@@ -8008,7 +8039,7 @@ blockquote .shape {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   content: "";
-  border: 10px solid #2042e3;
+  border: 10px solid #15B756;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -8024,8 +8055,8 @@ blockquote .shape {
 }
 
 .events-schedule .nav .nav-item .nav-link:hover {
-  background-color: #2042e3;
-  color: #fff
+  background-color: #F7FCF9;
+  color: #15B756
 }
 
 .events-schedule .nav .nav-item .nav-link:hover::before {
@@ -8034,11 +8065,11 @@ blockquote .shape {
 }
 
 .events-schedule .nav .nav-item .nav-link:hover span {
-  color: #fff
+  color: #15B756
 }
 
 .events-schedule .nav .nav-item .nav-link.active {
-  background-color: #2042e3;
+  background-color: #15B756;
   color: #fff
 }
 
@@ -8078,7 +8109,7 @@ blockquote .shape {
 }
 
 .events-schedule .single-event {
-  border-left-color: #2042e3;
+  border-left-color: #15B756;
 }
 
 .events-schedule .single-event .date {
@@ -8191,11 +8222,11 @@ blockquote .shape {
 }
 
 .events-schedule .single-event .event-info .info ul li a:hover {
-  color:#2042e3;
+  color:#15B756;
 }
 
 .events-schedule .single-event .event-info .info ul li i {
-  color: #2042e3;
+  color: #15B756;
   display: inline-block;
   margin-right: 4px;
   font-size: 14px
@@ -8207,6 +8238,10 @@ blockquote .shape {
 
 .events-schedule .single-event .button {
   float: right
+}
+
+.footer a {
+  color: #15B756;
 }
 
 @media (max-width:767px) {
@@ -8388,7 +8423,6 @@ blockquote .shape {
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0 0 0 .25rem
 }
 
 .navbar-toggler-icon {
@@ -8692,4 +8726,10 @@ blockquote .shape {
 .navbar-dark .navbar-text a:focus,
 .navbar-dark .navbar-text a:hover {
     color: #fff
+}
+
+.find-job .single-job .job-content h4 {
+  padding-right: 200px;
+  position: relative;
+  padding-bottom: 0px;
 }

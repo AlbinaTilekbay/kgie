@@ -19,37 +19,23 @@
 <body>
 
   <style media="screen">
-    .find-job .single-job .job-content h4 {
-      padding-right: 200px;
-      position: relative;
-      padding-bottom: 0px;
-    }
-
-
     @media (max-width:575.98px) {
-      .hero-area.style2 .tns-controls button:last-child {
-        border-radius: 50%;
-        left: 0px;
-      }
-
-      .hero-area.style2 .hero-inner {
-        margin-left: 200px;
-      }
-
-      .hero-area.style2 #tns3>.tns-item {
-        width: calc(16.999%);
-      }
-
-      .hero-area.style2 .tns-controls button:first-child {
-        border-radius: 50%;
-        left: 0px;
-      }
-
-      .hero-area.style2 .col-lg-4 {
-        flex: 0 0 auto;
-        width: 10%;
+      .hero-area.style2.set {
+        display: none;
 
       }
+
+      .hero-area.style2.sec {
+        display: block;
+
+      }
+
+      .hero-area.style2.sec .section-title {
+        position: static;
+        margin-top: 100px;
+        margin-bottom: 0px;
+      }
+
 
       .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
         opacity: 100%;
@@ -62,30 +48,62 @@
       .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
         opacity: 100%;
       }
+
+      .hero-area.style2.set {
+        display: none;
+
+      }
+
+      .hero-area.style2.sec {
+        display: block;
+
+      }
+
+      .hero-area.style2.sec .section-title {
+        position: static;
+        margin-top: 100px;
+        margin-bottom: 0px;
+      }
     }
 
-    @media (max-width:991.98px) {}
+    @media (max-width:991.98px) {
+      .hero-area.style2.set {
+        display: none;
+
+      }
+
+      .hero-area.style2.sec {
+        display: block;
+
+      }
+
+      .hero-area.style2.sec .section-title {
+        position: static;
+        margin-top: 100px;
+        margin-bottom: 0px;
+      }
+    }
 
     @media (max-width:1199.98px) {
-      .hero-area.style2 .tns-controls button:last-child {
+      .hero-area.style2.set .tns-controls button:last-child {
         border-radius: 50%;
         left: -120px;
       }
 
-      .hero-area.style2 .hero-inner {
+      .hero-area.style2.set .hero-inner {
         margin-left: 200px;
       }
 
-      .hero-area.style2 #tns3>.tns-item {
+      .hero-area.style2.set #tns3>.tns-item {
         width: calc(16.999%);
       }
 
-      .hero-area.style2 .tns-controls button:first-child {
+      .hero-area.style2.set .tns-controls button:first-child {
         border-radius: 50%;
         left: -180px;
       }
 
-      .hero-area.style2 .col-lg-4 {
+      .hero-area.style2.set .col-lg-4 {
         flex: 0 0 auto;
         width: 28%;
 
@@ -94,34 +112,48 @@
       .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
         opacity: 100%;
       }
+
+
+
+
     }
+
+    @media (min-width:1000px) {
+      .hero-area.style2.sec {
+        display: none;
+
+      }
+
+    }
+
 
     @media (min-width:1200px) {
 
-      .hero-area.style2 .col-lg-4 {
-      flex: 0 0 auto;
-      width: 31.333%;
+      .hero-area.style2.set .col-lg-4 {
+        flex: 0 0 auto;
+        width: 31.333%;
 
-    }
-      .hero-area.style2 .tns-controls button:last-child {
+      }
+
+      .hero-area.style2.set .tns-controls button:last-child {
         border-radius: 50%;
         left: -120px;
       }
 
-      .hero-area.style2 .hero-inner {
+      .hero-area.style2.set .hero-inner {
         margin-left: 200px;
       }
 
-      .hero-area.style2 #tns3>.tns-item {
+      .hero-area.style2.set #tns3>.tns-item {
         width: calc(16.8%)
       }
 
-      .hero-area.style2 .tns-controls button:first-child {
+      .hero-area.style2.set .tns-controls button:first-child {
         border-radius: 50%;
         left: -180px;
       }
 
-      .hero-area.style2 .col-lg-4 {
+      .hero-area.style2.set .col-lg-4 {
         flex: 0 0 auto;
         width: 27%;
 
@@ -129,6 +161,14 @@
 
       .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
         opacity: 100%;
+      }
+
+      .hero-area.style2.sec {
+        display: none;
+      }
+
+      .section-title h2 {
+        font-size: 30px;
       }
     }
 
@@ -139,28 +179,32 @@
       }
 
 
-      .hero-area.style2 .tns-controls button:last-child {
+      .hero-area.style2.set .tns-controls button:last-child {
         border-radius: 50%;
         left: -220px;
       }
 
-      .hero-area.style2 .hero-inner {
+      .hero-area.style2.set .hero-inner {
         margin-left: 300px;
       }
 
-      .hero-area.style2 #tns3>.tns-item {
+      .hero-area.style2.set #tns3>.tns-item {
         width: auto;
       }
 
-      .hero-area.style2 .tns-controls button:first-child {
+      .hero-area.style2.set .tns-controls button:first-child {
         border-radius: 50%;
         left: -280px;
       }
 
-      .hero-area.style2 .col-lg-4 {
+      .hero-area.style2.set .col-lg-4 {
         flex: 0 0 auto;
         width: 27%;
 
+      }
+
+      .hero-area.style2.sec {
+        display: none;
       }
     }
 
@@ -173,7 +217,7 @@
       width: 6px;
       display: block;
       border-radius: 50%;
-      background-color: #2042e3;
+      background-color: #129B4B;
     }
 
     .about-us ul li {
@@ -204,7 +248,7 @@
         <div class="row align-items-center">
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand logo" href="index.html">
+              <a class="navbar-brand logo" href="https://kgie.yu.edu.kz/">
                 <script data-pagespeed-no-defer="">
                   (function() {
                     for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
@@ -369,37 +413,37 @@
                 </script>
                 KAZAKH-GERMAN <br> INSTITUTE OF ENGINEERING
               </a>
-              <button style="background-color: #2042e3;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span  class="toggler-icon"></span>
+              <button style="background-color: #15B756;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                 <ul id="nav" class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="active" href="index.html">Новости</a>
-                  </li>
-                  <li class="nav-item"><a href="#strategy">Cтратегия</a>
-
-                  </li>
-                  <li class="nav-item"><a href="#">Программы</a>
-
-                  </li>
-                  <li class="nav-item"><a href="#">Приемная комиссия</a>
-
-                  </li>
-                  <li class="nav-item"><a href="#">Партнеры</a>
-
+                    <a class="nav-link active" href="#news">НОВОСТИ</a>
                   </li>
                   <li class="nav-item">
-    <a class="dropdown-toggle" id="selectedLang" type="button" href="#">ENG</a>
-    <ul class="sub-menu">
-      <li><a style="display:none;" href="#" data-lang="en">ENG</a></li>
-      <li><a href="#" data-lang="kz">ҚАЗ</a></li>
-      <li><a href="#" data-lang="ru">РУС</a></li>
-      <li><a href="#" data-lang="de">DEU</a></li>
-    </ul>
-  </li>
+                    <a class="nav-link" href="#strategy">СТРАТЕГИЯ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#programs">ПРОГРАММЫ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#admission">ПРИЕМНАЯ КОМИССИЯ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#partners">ПАРТНЕРЫ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-toggle" id="selectedLang" href="#">ENG</a>
+                    <ul class="sub-menu">
+                      <li><a style="display:none;" href="#" data-lang="en">ENG</a></li>
+                      <li><a href="#" data-lang="kz">ҚАЗ</a></li>
+                      <li><a href="#" data-lang="ru">РУС</a></li>
+                      <li><a href="#" data-lang="de">DEU</a></li>
+                    </ul>
+                  </li>
 
                   <!-- <div class="">
                     <li class="nav-item"><a href="contact.html">ENG </a>
@@ -435,68 +479,70 @@
       <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper" data-dismiss="modal"><i class="lni lni-close"></i></button>
 
 
-                <section class="section blog-single">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <div class="single-inner">
-                          <div class="post-thumbnils">
-                            <img src="images/1.png" width="300px" alt="#" data-pagespeed-url-hash="3515419736" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                          </div>
-                          <div class="post-details">
-                            <div class="detail-inner">
-                              <h2 class="post-title">
-                                <a>Токаев поручил открыть 5 филиалов авторитетных зарубежных вузов</a>
-                              </h2>
+      <section class="section blog-single">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="single-inner">
+                <div class="post-thumbnils">
+                  <img src="images/1.png" width="300px" alt="#" data-pagespeed-url-hash="3515419736" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="post-details">
+                  <div class="detail-inner">
+                    <h2 class="post-title">
+                      <a>Токаев поручил открыть 5 филиалов авторитетных зарубежных вузов</a>
+                    </h2>
 
-                              <ul class="custom-flex post-meta">
-                                <li>
-                                  <a href="#">
-                                    <i class="lni lni-calendar"></i>
-                                    11-01-2022
-                                  </a>
-                                </li>
+                    <ul class="custom-flex post-meta">
+                      <li>
+                        <a href="#">
+                          <i class="lni lni-calendar"></i>
+                          11-01-2022
+                        </a>
+                      </li>
 
-                              </ul>
-                              <p>Президент Касым-Жомарт Токаев поручил повысить доступность высшего образования и открыть пять филиалов авторитетных зарубежных вузов, передает корреспондент Tengrinews.kz.<br>
-На заседании Мажилиса Токаев заявил, что вопрос доступности высшего образования остается злободневным в Казахстане.
-</p>
-
-
-
-                              <blockquote>
-                                <div class="icon">
-                                  <i class="lni lni-quotation"></i>
-                                </div>
-                                <h4>"Особое внимание следует уделить выделению целевых грантов для молодежи из густонаселенных регионов страны. Для построения новой экономики важно повышение конкурентоспособности вузов. Недавно в Казахстане начали открываться филиалы ведущих зарубежных вузов. В скором времени планируется открытие филиалов передовых технических вузов России. Считаю необходимым к 2025 году открыть в нашей стране не менее пяти филиалов авторитетных зарубежных университетов. При этом два филиала вузов с техническим уклоном необходимо открыть на западе страны", - сказал Токаев.</h4>
-
-
-                              </blockquote>
-
-                            </div>
+                    </ul>
+                    <p>Президент Касым-Жомарт Токаев поручил повысить доступность высшего образования и открыть пять филиалов авторитетных зарубежных вузов, передает корреспондент Tengrinews.kz.<br>
+                      На заседании Мажилиса Токаев заявил, что вопрос доступности высшего образования остается злободневным в Казахстане.
+                    </p>
 
 
 
-                          </div>
-                        </div>
+                    <blockquote>
+                      <div class="icon">
+                        <i class="lni lni-quotation"></i>
                       </div>
+                      <h4>"Особое внимание следует уделить выделению целевых грантов для молодежи из густонаселенных регионов страны. Для построения новой экономики важно повышение конкурентоспособности вузов. Недавно в Казахстане начали открываться
+                        филиалы ведущих зарубежных вузов. В скором времени планируется открытие филиалов передовых технических вузов России. Считаю необходимым к 2025 году открыть в нашей стране не менее пяти филиалов авторитетных зарубежных
+                        университетов. При этом два филиала вузов с техническим уклоном необходимо открыть на западе страны", - сказал Токаев.</h4>
 
-                    </div>
+
+                    </blockquote>
+
                   </div>
-                </section>
+
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
     </div>
   </div>
 
 
-  <section class="hero-area style2">
+  <section id="news" class="hero-area style2 set">
     <div class="">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-12" style="position: absolute; margin-top:180px;">
             <div class="section-title align-left wow fadeInLeft">
               <h2 data-translate="news">Новости</h2>
-              <h6  data-translate="chronology">Хронология главных событий</h6>
+              <h6 data-translate="chronology">Хронология главных событий</h6>
             </div>
           </div>
         </div>
@@ -568,7 +614,8 @@
                                 <li><a href="#"><i class="lni lni-calendar"></i> 11-01-2022</a></li>
                               </ul>
                             </div>
-                            <p>DKU совместно с партнерами запускает уникальный проект «Mangystau School of Sustainable Engineering”! Этот уникальный ...</p>
+                            <p>DKU совместно с
+                              партнерами запускает уникальный проект «Mangystau School of Sustainable Engineering”! Этот уникальный ...</p>
                             <div class="button">
                               <a href=" " class="btn">Читать далее</a>
                             </div>
@@ -666,6 +713,176 @@
 
 
 
+
+
+
+
+  <!-- Mobile version news -->
+
+  <section id="news" class="hero-area style2 sec">
+    <div class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12" style="">
+            <div class="section-title align-left wow fadeInLeft">
+              <h2 data-translate="news">Новости</h2>
+              <h6 data-translate="chronology">Хронология главных событий</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="container" style="margin-top: -40px; ">
+        <div class="row">
+          <div class="hero-inner">
+            <div class="home-slider sec">
+              <div class="single-slider" style="">
+                <div class="latest-news-area section">
+
+
+
+
+                  <div class="single-news">
+                    <div class="image">
+                      <img class="thumb" src="images/1.png" alt="#">
+                    </div>
+                    <div class="content-body">
+                      <h4 class="title"><a href=" ">Токаев поручил открыть 5 филиалов авторитетных зарубежных вузов</a></h4>
+                      <div class="meta-details">
+                        <ul>
+                          <li><a href="#"><i class="lni lni-calendar"></i> 11-01-2022</a></li>
+                        </ul>
+                      </div>
+                      <p>Президент Касым-Жомарт Токаев поручил повысить доступность высшего образования и открыть пять филиалов...</p>
+                      <div class="button">
+                        <a data-toggle="modal" data-target="#news1" class="btn">Читать далее</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+              <div class="single-slider">
+                <div class="latest-news-area section">
+                  <div class="container">
+                    <div class="row">
+
+
+
+                      <div class="single-testimonial single-news wow fadeInUp">
+                        <div class="image">
+                          <img class="thumb" src="images/4.png" alt="#">
+                        </div>
+                        <div class="content-body">
+                          <h4 class="title"><a href=" ">Рабочая ознакомительная поездка делегации DKU в университет...</a></h4>
+                          <div class="meta-details">
+                            <ul>
+                              <li><a href="#"><i class="lni lni-calendar"></i> 11-01-2022</a></li>
+                            </ul>
+                          </div>
+                          <p>С 11 по 15 октября состоялась рабочая ознакомительная поездка делегации DKU в университет им. Есенова, г. Актау!...</p>
+                          <div class="button">
+                            <a href=" " class="btn">Читать далее</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="single-slider">
+                <div class="latest-news-area section">
+                  <div class="container">
+                    <div class="row">
+
+
+
+                      <div class="single-testimonial single-news wow fadeInUp">
+                        <div class="image">
+                          <img class="thumb" src="images/4.png" alt="#">
+                        </div>
+                        <div class="content-body">
+                          <h4 class="title"><a href=" ">Рабочая ознакомительная поездка делегации DKU в университет...</a></h4>
+                          <div class="meta-details">
+                            <ul>
+                              <li><a href="#"><i class="lni lni-calendar"></i> 11-01-2022</a></li>
+                            </ul>
+                          </div>
+                          <p>С 11 по 15 октября состоялась рабочая ознакомительная поездка делегации DKU в университет им. Есенова, г. Актау!...</p>
+                          <div class="button">
+                            <a href=" " class="btn">Читать далее</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="single-slider">
+                <div class="latest-news-area section">
+                  <div class="container">
+                    <div class="row">
+
+
+
+                      <div class="single-testimonial single-news wow fadeInUp">
+                        <div class="image">
+                          <img class="thumb" src="images/4.png" alt="#">
+                        </div>
+                        <div class="content-body">
+                          <h4 class="title"><a href=" ">Рабочая ознакомительная поездка делегации DKU в университет...</a></h4>
+                          <div class="meta-details">
+                            <ul>
+                              <li><a href="#"><i class="lni lni-calendar"></i> 11-01-2022</a></li>
+                            </ul>
+                          </div>
+                          <p>С 11 по 15 октября состоялась рабочая ознакомительная поездка делегации DKU в университет им. Есенова, г. Актау!...</p>
+                          <div class="button">
+                            <a href=" " class="btn">Читать далее</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--  -->
+
+
+
+
+
+
   <section id="strategy" class="about-us section">
     <div class="container">
       <div class="row align-items-center justify-content-center">
@@ -691,7 +908,7 @@
 
                     <div class="media-body">
                       <i class="lni lni-checkmark"></i>
-                      <p class="">Институт сосредоточится на треугольнике знаний наряду с цепочкой создания стоимости "зеленого водорода", а также на социально-экономическом развитии Мангыстау.
+                      <p class="">Стимулировать развитие Казахстана путем передачи немецких образовательных программ, исследований и технологий
                       </p>
                     </div>
 
@@ -705,21 +922,20 @@
 
           <div class="content-right wow fadeInRight" data-wow-delay=".5s">
 
-            <h2>Стратегическое направление</h2>
+            <h2 style="text-transform: none;">Стратегическое направление</h2>
             <div class="single-list">
               <i class="lni lni-grid-alt"></i>
 
               <div class="list-bod">
                 <h5>Образование</h5>
                 <ul>
-                  <li>Предметная область</li>
                   <li>Энергия, окружающая среда и земля</li>
 
-                  <li>Логистические потоковые системы</li>
+                  <li>Системы логистических потоков</li>
 
                   <li>Передовая инженерия</li>
 
-                  <li>Информатика и цифровизация</li>
+                  <li>Информатика и оцифровка</li>
                 </ul>
               </div>
 
@@ -732,12 +948,12 @@
               <div class="list-bod">
                 <h5>Инновации</h5>
                 <ul>
-                  <li>Сети и кластеры между наукой и промышленностью Совместные исследовательские проекты</li>
+                  <li>Совместные исследовательские проекты </li>
                   <li>Бизнес-инкубация и стартапы</li>
 
-                  <li>Логистические потоковые системы</li>
-
                   <li>Экспериментальные полигоны, испытательные стенды и пилотные линии</li>
+
+                  <li>Технопарки</li>
 
                 </ul>
               </div>
@@ -751,12 +967,10 @@
               <div class="list-bod">
                 <h5>Исследования</h5>
                 <ul>
-                  <li>Тематические области исследований</li>
-                  <li>Зеленые водородные технологии, системы и инфраструктура</li>
-                  <li>Динамичные и интермодальные логистические системы</li>
-                  <li>Региональные и местные экологические проблемы (например, опреснение воды)</li>
-                  <li>Имитация и моделирование данных</li>
-                  <li>Социально-экономические последствия, циркулярная экономика</li>
+                  <li>Интеграция производства экологически чистого водорода с возобновляемыми источниками энергии.</li>
+                  <li>Хранение и транспортировка в области водородной энергетики.</li>
+                  <li>Автоматизация, мониторинг и управление процессами на основе Интернета вещей.</li>
+
                 </ul>
               </div>
 
@@ -769,7 +983,7 @@
   </section>
 
 
-  <section class="find-job section">
+  <section id="programs" class="find-job section">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -796,16 +1010,16 @@
                   <li style="font-size:14px;"> <i class="lni lni-calendar"></i>Мерзімі: 4 жыл – 8 семестр </li>
                 </ul>
 
-                <p>Білім беру бағдарламасының мақсаты: Энергетикалық және экологиялық
+                <p style="color:#212825;">Білім беру бағдарламасының мақсаты: Энергетикалық және экологиялық
                   техника" білім беру бағдарламасының басты мақсаты энергетика және экология саласында білікті мамандарды даярлау болып табылады.</p>
 
                 <ul>
-                  <li> Жобалау-конструкторлық қызмет саласында</li>
-                  <li>Ғылыми-зерттеу институттарында</li>
-                  <li>Энергетик </li>
-                  <li>Эколог</li>
-                  <li>Консалтингтік компанияда менеджер рөлінде болу </li>
-                  <li>Орталықтандырылған жүйеге қосу жөніндегі маман </li>
+                  <li><i class="lni lni-user"></i> Жобалау-конструкторлық қызмет саласында</li><br>
+                  <li><i class="lni lni-user"></i> Ғылыми-зерттеу институттарында</li><br>
+                  <li><i class="lni lni-user"></i> Энергетик </li><br>
+                  <li><i class="lni lni-user"></i> Эколог</li><br>
+                  <li><i class="lni lni-user"></i> Консалтингтік компанияда менеджер рөлінде болу </li><br>
+                  <li><i class="lni lni-user"></i> Орталықтандырылған жүйеге қосу жөніндегі маман </li><br>
                 </ul>
               </div>
               <div class="job-button">
@@ -833,17 +1047,16 @@
                   <li style="font-size:14px;"><i class="lni lni-calendar"></i>Мерзімі: 4 жыл – 8 семестр </li>
                 </ul>
 
-                <p>Білім беру бағдарламасының мақсаты: Қазіргі заманғы тауар қозғалысының логистикалық жүйесінде көлік кешенінің жұмысын және оның тауар нарығы
+                <p style="color:#212825;">Білім беру бағдарламасының мақсаты: Қазіргі заманғы тауар қозғалысының логистикалық жүйесінде көлік кешенінің жұмысын және оның тауар нарығы
                   мен көлік қызметтері нарығының логистикалық инфрақұрылымымен өзара іс-қимылын ұйымдастыруға қабілетті білікті мамандарды даярлау.</p>
 
                 <ul>
-                  <li> Жеткізу тізбегінің талдаушысы</li>
-                  <li>Операциялар жөніндегі менеджер </li>
-                  <li>Көлік менеджері </li>
-                  <li>Логистика бойынша кеңесші </li>
-                  <li>Сатып алу менеджері</li>
-                  <li>Қойма операциялары жөніндегі менеджер </li>
-                  <li>Қорларды бақылау жөніндегі маман </li>
+                  <li><i class="lni lni-user"></i> Жеткізу тізбегінің талдаушысы</li> <br>
+                  <li><i class="lni lni-user"></i>Операциялар жөніндегі менеджер </li><br>
+                  <li><i class="lni lni-user"></i>Көлік менеджері </li><br>
+                  <li><i class="lni lni-user"></i>Логистика бойынша кеңесші </li><br>
+                  <li><i class="lni lni-user"></i>Сатып алу менеджері</li><br>
+                  <li><i class="lni lni-user"></i>Қойма операциялары жөніндегі менеджер </li><br>
                 </ul>
               </div>
               <div class="job-button">
@@ -1050,7 +1263,7 @@
 
 
 
-  <section class="featured-job section">
+  <section id="admission" class="featured-job section">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -1063,33 +1276,37 @@
       </div>
       <div class="single-head">
         <div class="row">
+
           <div class="col-lg-4 col-md-6 col-12">
             <div class="single-job wow fadeInUp" data-wow-delay=".2s">
               <div class="shape"></div>
               <div class="feature">Admission</div>
-
               <div class="content">
                 <h4><a href="job-details.html">Конкурс</a></h4>
+                <div class="image">
+                  <img src="images/adm12svg.svg" alt="#" data-pagespeed-url-hash="1726835659" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <br>
                 <ul>
-                  <li><a style="font-size:14px;"><i class="lni lni-calendar"></i> 13.07.2023 - 23.07.2023</a></li>
+                  <li><a style="font-size:14px; font-weight:700;"><i class="lni lni-calendar"></i> 13.07.2023 - 23.07.2023</a></li>
                 </ul>
 
                 <p>Прием лиц, поступающих в Университет, осуществляется по их заявлениям на конкурсной основе по программе получения двойного и (или) тройного диплома с получением степени бакалавра по образовательным программам: <br> «Логистика» —
                   Технический университет Вильдау и <br> «Энергетика и экологическая инженерия» — Гамбургский технический университет <br></p>
                 <p></p>
                 <ul>
-                  <li><span style="font-size:14px;"> прошедшие ЕНТ и набравшие по его результатам не менее 60 баллов, при этом по каждому предмету ЕНТ необходимо набрать не менее 5-ти баллов и результатами вступительного экзамена Университета.
+                  <li><span style="font-size:14px; font-weight:500;"> прошедшие ЕНТ и набравшие по его результатам не менее 60 баллов, при этом по каждому предмету ЕНТ необходимо набрать не менее 5-ти баллов и результатами вступительного экзамена Университета.
                     </span></li>
                 </ul>
                 <p></p>
                 <p> Вступительный экзамен предусматривает проверку уровеня владения английским языком
                 <ul>
                   <p></p>
-                  <li style="font-size:14px;">на уровне А2/Elementary. </li>
+                  <li style="font-size:14px; font-weight:500;">на уровне А2/Elementary. </li>
                 </ul>
                 </p>
                 <ul>
-                  <li style="font-size:14px; "> <i class="lni lni-pointer-right"></i> Поступающие лица проходят собеседование.
+                  <li style="font-size:14px; font-weight:500;"> <i class="lni lni-pointer-right"></i> Поступающие лица проходят собеседование.
                   </li>
                 </ul>
 
@@ -1105,18 +1322,21 @@
 
               <div class="content">
                 <h4><a href="job-details.html">Зачисление</a></h4>
-
+                <div class="image">
+                  <img src="images/adm1.svg" alt="#" data-pagespeed-url-hash="1726835659" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <br>
                 <ul>
-                  <li><a style="font-size:14px;"><i class="lni lni-calendar"></i> до 20.08.2023</a></li>
+                  <li><a style="font-size:14px; font-weight:700;"><i class="lni lni-calendar"></i> до 20.08.2023</a></li>
                 </ul>
                 <br>
                 <ul>
-                  <li><a href="https://meet.google.com/gfa-fsff-gxc" style="font-size:14px;"><i class="lni lni-headphone"></i> Виртуальная приемная комиссия</a></li>
+                  <li><a href="https://meet.google.com/gfa-fsff-gxc" style="font-size:14px; color: #139949; font-weight:500;"><i class="lni lni-headphone"></i> Виртуальная приемная комиссия</a></li>
                   <div style="margin-top:5px; margin-bottom:20px; " class="button">
                     <a href="https://meet.google.com/gfa-fsff-gxc" class="btn">Перейти</a>
                   </div>
 
-                  <li><a href="https://admission.yu.edu.kz/wp-content/uploads/2023/04/dokumenty-3.pdf" style="font-size:14px;"><i class="lni lni-files"></i> Список документов для подачи на образовательный грант и для поступления</a></li>
+                  <li><a href="https://admission.yu.edu.kz/wp-content/uploads/2023/04/dokumenty-3.pdf" style="font-size:14px; color: #139949; font-weight:500;"><i class="lni lni-files"></i> Список документов для подачи на образовательный грант и для поступления</a></li>
                   <div style="margin-top:5px; margin-bottom:15px;" class="button">
                     <a href="https://admission.yu.edu.kz/wp-content/uploads/2023/04/dokumenty-3.pdf" class="btn">Скачать</a>
                   </div>
@@ -1136,19 +1356,22 @@
 
               <div class="content">
                 <h4><a href="job-details.html">Контакты</a></h4>
-
+                <div class="image">
+                  <img src="images/adm3.svg" alt="#" data-pagespeed-url-hash="1726835659" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <br>
                 <ul>
-                  <li style="margin-bottom: 20px;"><a href="#" style="font-size:14px;"><i class="lni  lni-map-marker"></i>
+                  <li style="margin-bottom: 20px;"><a href="#" style="font-size:14px; color: #139949; font-weight:500;"><i class="lni  lni-map-marker"></i>
                       Республика Казахстан,
                       г. Актау, 32 мкр,<br>
                       главный учебный корпус,
                       кабинет D219
                     </a></li>
-                  <li style="margin-bottom: 20px;"><a href="#" style="font-size:14px;"><i class="lni lni-phone"></i> Контактный телефон: +7 707 777 4894
+                  <li style="margin-bottom: 20px;"><a href="#" style="font-size:14px; color: #139949; font-weight:500;"><i class="lni lni-phone"></i> Контактный телефон: +7 707 777 4894
                     </a></li>
 
 
-                  <li><a href="#" style="font-size:14px;"><i class="lni lni-timer"></i>График работы:
+                  <li><a href="#" style="font-size:14px; color: #139949; font-weight:500;"><i class="lni lni-timer"></i>График работы:
                       пн-пт с 09:00 до 18:00 <br>
                       сб, вс — выходной</a></li>
 
@@ -1248,46 +1471,54 @@
 
 
 
+  <section id="partners">
 
-  <div class="client-logo-section">
-    <div class="container">
-      <div class="client-logo-wrapper">
-        <div class="client-logo-carousel d-flex align-items-center justify-content-between">
-          <div class="client-logo">
-            <img src="images/p1.png" width="100px" alt="#" data-pagespeed-url-hash="3827717459" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p2.png" width="100px" alt="#" data-pagespeed-url-hash="4122217380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p3.png" width="100px" alt="#" data-pagespeed-url-hash="121750005" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p4.jpeg" alt="#" data-pagespeed-url-hash="416249926" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p5.png" alt="#" data-pagespeed-url-hash="710749847" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p6.png" alt="#" data-pagespeed-url-hash="1005249768" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p7.png" alt="#" data-pagespeed-url-hash="4122217380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p8.png" alt="#" data-pagespeed-url-hash="121750005" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/9.jpeg" alt="#" data-pagespeed-url-hash="416249926" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-          </div>
-          <div class="client-logo">
-            <img src="images/p10.png" alt="#" data-pagespeed-url-hash="416249926" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+    <div class="client-logo-section">
+      <div class="container">
+        <div class="client-logo-wrapper">
+          <div class="client-logo-carousel d-flex align-items-center justify-content-between">
+            <div class="client-logo">
+              <img src="images/p11.png" width="100px" alt="#" data-pagespeed-url-hash="3827717459" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p12.jpeg" width="100px" alt="#" data-pagespeed-url-hash="4122217380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p1.png" width="100px" alt="#" data-pagespeed-url-hash="3827717459" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p2.png" width="100px" alt="#" data-pagespeed-url-hash="4122217380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p3.png" width="100px" alt="#" data-pagespeed-url-hash="121750005" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p4.jpeg" alt="#" data-pagespeed-url-hash="416249926" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p5.png" alt="#" data-pagespeed-url-hash="710749847" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p6.png" alt="#" data-pagespeed-url-hash="1005249768" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p7.png" alt="#" data-pagespeed-url-hash="4122217380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p8.png" alt="#" data-pagespeed-url-hash="121750005" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/9.jpeg" alt="#" data-pagespeed-url-hash="416249926" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
+            <div class="client-logo">
+              <img src="images/p10.png" alt="#" data-pagespeed-url-hash="416249926" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
+  </section>
 
 
 
@@ -1302,7 +1533,7 @@
 
             <div class="f-about single-footer">
               <div class="logo">
-                <a href="index.html">KAZAKH-GERMAN <br> INSTITUTE OF ENGINEERING</a>
+                <a href="https://kgie.yu.edu.kz/">KAZAKH-GERMAN <br> INSTITUTE OF ENGINEERING</a>
               </div>
               <ul class="contact-address">
                 <li><span>Адрес:</span>г. Актау, микрорайон 32,
@@ -1435,6 +1666,28 @@
         }
       }
     });
+    var slider = new tns({
+      container: '.home-slider.sec',
+      slideBy: 'page',
+      autoplayButtonOutput: false,
+      mouseDrag: true,
+      gutter: 0,
+      items: 1,
+      nav: false,
+      controls: true,
+      controlsText: ['<i class="lni lni-arrow-left prev"></i>', '<i class="lni lni-arrow-right next"></i>'],
+      responsive: {
+        1200: {
+          items: 1,
+        },
+        992: {
+          items: 1,
+        },
+        0: {
+          items: 1,
+        }
+      }
+    });
   </script>
   <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
@@ -1473,75 +1726,152 @@
       });
     });
   </script>
-  <script type="text/javascript">
-  var selectedLang = document.getElementById('selectedLang');
-var subMenu = document.querySelector('.sub-menu');
-var subMenuLinks = document.querySelectorAll('.sub-menu a');
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var navLinks = document.querySelectorAll('#nav a');
 
-subMenuLinks.forEach(function(link) {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    var lang = link.getAttribute('data-lang');
-    translatePage(lang);
-    selectedLang.textContent = link.textContent;
-    updateSubMenu();
-  });
-});
+      function updateActiveLink(targetLink) {
+        navLinks.forEach(function(link) {
+          link.classList.toggle('active', link === targetLink);
+        });
+      }
 
-selectedLang.addEventListener('click', function() {
-  toggleSubMenu();
-});
+      function handleNavLinkClick(event) {
+        event.preventDefault();
+        updateActiveLink(this);
+        var targetId = this.getAttribute('href').substring(1);
+        var targetSection = document.getElementById(targetId);
 
-function toggleSubMenu() {
-  subMenu.classList.toggle('show');
-}
+        window.scrollTo({
+          top: targetSection.offsetTop,
+          behavior: 'smooth'
+        });
+      }
 
-function updateSubMenu() {
-  subMenuLinks.forEach(function(link) {
-    if (link.textContent === selectedLang.textContent) {
-      link.style.display = 'none';
-    } else {
-      link.style.display = 'block';
-    }
-  });
-}
+      navLinks.forEach(function(link) {
+        link.addEventListener('click', handleNavLinkClick);
+      });
 
-function translatePage(lang) {
-  // Получение всех элементов с атрибутом data-translate
-  var elements = document.querySelectorAll('[data-translate]');
-
-  // Перевод текста для каждого элемента
-  elements.forEach(function(element) {
-    var translationKey = element.getAttribute('data-translate');
-    element.textContent = getTranslation(lang, translationKey);
-  });
-}
-
-// Функция получения перевода в соответствии с языком и ключом перевода
-function getTranslation(lang, translationKey) {
-  var translations = {
-    chronology: {
-      en: 'Chronology of Major Events',
-      kz: 'Негізгі оқиғалар кро',
-      ru: 'Хронология главных событий',
-      de: 'Chronologie der Hauptereignisse'
-    },
-    news: {
-      en: 'News',
-      kz: 'Жаңалықтар',
-      ru: 'Новости',
-      de: 'N'
-    },
-    // Добавьте другие ключи перевода и их значения для разных элементов
-  };
-
-  // Возвращаем перевод в соответствии с выбранным языком и ключом перевода
-  return translations[translationKey][lang];
-}
-
-
-
+      // Установка активного пункта меню по умолчанию
+      updateActiveLink(navLinks[0]);
+    });
   </script>
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var navLinks = document.querySelectorAll('#nav a');
+      var sections = document.querySelectorAll('section');
+
+      function updateActiveLink(targetLink) {
+        navLinks.forEach(function(link) {
+          link.classList.toggle('active', link === targetLink);
+        });
+      }
+
+      function handleNavLinkClick(event) {
+        event.preventDefault();
+        updateActiveLink(this);
+        var targetId = this.getAttribute('href').substring(1);
+        var targetSection = document.getElementById(targetId);
+
+        window.scrollTo({
+          top: targetSection.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+
+      function updateActiveLinkOnScroll() {
+        var currentScrollPos = window.pageYOffset;
+
+        sections.forEach(function(section) {
+          var sectionTop = section.offsetTop;
+          var sectionHeight = section.offsetHeight;
+          var sectionId = section.getAttribute('id');
+          var link = document.querySelector('#nav a[href="#' + sectionId + '"]');
+
+          if (currentScrollPos >= sectionTop && currentScrollPos < sectionTop + sectionHeight) {
+            updateActiveLink(link);
+          }
+        });
+      }
+
+      navLinks.forEach(function(link) {
+        link.addEventListener('click', handleNavLinkClick);
+      });
+
+      window.addEventListener('scroll', updateActiveLinkOnScroll);
+
+      // Установка активного пункта меню по умолчанию
+      updateActiveLink(navLinks[0]);
+    });
+  </script>
+  <script type="text/javascript">
+    var selectedLang = document.getElementById('selectedLang');
+    var subMenu = document.querySelector('.sub-menu');
+    var subMenuLinks = document.querySelectorAll('.sub-menu a');
+
+    subMenuLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        var lang = link.getAttribute('data-lang');
+        translatePage(lang);
+        selectedLang.textContent = link.textContent;
+        updateSubMenu();
+      });
+    });
+
+    selectedLang.addEventListener('click', function() {
+      toggleSubMenu();
+    });
+
+    function toggleSubMenu() {
+      subMenu.classList.toggle('show');
+    }
+
+    function updateSubMenu() {
+      subMenuLinks.forEach(function(link) {
+        if (link.textContent === selectedLang.textContent) {
+          link.style.display = 'none';
+        } else {
+          link.style.display = 'block';
+        }
+      });
+    }
+
+    function translatePage(lang) {
+      // Получение всех элементов с атрибутом data-translate
+      var elements = document.querySelectorAll('[data-translate]');
+
+      // Перевод текста для каждого элемента
+      elements.forEach(function(element) {
+        var translationKey = element.getAttribute('data-translate');
+        element.textContent = getTranslation(lang, translationKey);
+      });
+    }
+
+    // Функция получения перевода в соответствии с языком и ключом перевода
+    function getTranslation(lang, translationKey) {
+      var translations = {
+        chronology: {
+          en: 'Chronology of Major Events',
+          kz: 'Негізгі оқиғалар кро',
+          ru: 'Хронология главных событий',
+          de: 'Chronologie der Hauptereignisse'
+        },
+        news: {
+          en: 'News',
+          kz: 'Жаңалықтар',
+          ru: 'Новости',
+          de: 'N'
+        },
+        // Добавьте другие ключи перевода и их значения для разных элементов
+      };
+
+      // Возвращаем перевод в соответствии с выбранным языком и ключом перевода
+      return translations[translationKey][lang];
+    }
+  </script>
+
 
 </body>
 
