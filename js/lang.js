@@ -313,7 +313,7 @@ function getTranslation(lang, translationKey) {
       ru: 'Выпускники данной специальности могут сделать карьеру в следующих областях:',
     },
     bachelor9: {
-      en: 'in the field of design and construction services ;',
+      en: 'in the field of design and construction services;',
       kz: 'в сфере проектно-строительных услуг;',
       ru: 'в сфере проектно-строительных услуг;',
     },
@@ -333,7 +333,7 @@ function getTranslation(lang, translationKey) {
       ru: 'научно-исследовательских институтах;',
     },
     bachelor12: {
-      en: 'use of renewable energy sources and their autonomous or centralized grid specialist',
+      en: 'use of renewable energy sources and their autonomous or centralized grid specialist;',
       kz: 'использование возобновляемых источников энергии и их автономный или специалист по централизованным сетям;',
       ru: 'использование возобновляемых источников энергии и их автономный или специалист по централизованным сетям;',
     },
@@ -363,17 +363,17 @@ function getTranslation(lang, translationKey) {
       ru: 'Целью образовательной программы (ЦОП) является подготовка квалифицированного лица , способного организовать работу транспортного комплекса в логистической системе современного товародвижения и его взаимодействие с логистической инфраструктурой рынка товаров и транспортных услуг.',
     },
     logistic5: {
-      en: 'Career opportunities:',
-      kz: 'Карьерные возможности:',
-      ru: 'Карьерные возможности:',
+      en: 'Career opportunities',
+      kz: 'Карьерные возможности',
+      ru: 'Карьерные возможности',
     },
     logistic6: {
-      en: 'Supply Chain Analyst:',
+      en: 'Supply Chain Analyst',
       kz: 'Аналитик цепочки поставок',
       ru: 'Аналитик цепочки поставок',
     },
     logistic7: {
-      en: 'Operations Manager:',
+      en: 'Operations Manager',
       kz: 'Операционный менеджер',
       ru: 'Операционный менеджер',
     },
